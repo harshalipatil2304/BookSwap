@@ -1,0 +1,27 @@
+# Eclipse and IDE files
+.metadata/
+**/.settings/
+**/.classpath
+**/.project
+
+# Java build files
+**/target/
+
+# React generated files
+**/node_modules/
+**/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Protect backend credentials
+book-swap/src/main/resources/application.properties
